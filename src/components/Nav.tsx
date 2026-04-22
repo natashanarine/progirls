@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const navLinks = ["about", "members", "join"] as const;
+const navLinks = ["about", "events", "join"] as const;
 
 export default function Nav() {
   return (

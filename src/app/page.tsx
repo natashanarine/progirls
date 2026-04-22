@@ -1,11 +1,14 @@
 import Hero from '@/components/Hero';
-import ComingSoon from '@/components/ComingSoon';
+import About from '@/components/About';
+import Events from '@/components/Events';
+import BlurSection from '@/components/BlurSection';
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <ComingSoon />
+      <BlurSection><About /></BlurSection>
+      <BlurSection><Events /></BlurSection>
     </main>
   );
 }
